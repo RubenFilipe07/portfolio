@@ -1,0 +1,28 @@
+.menuSuspenso{
+display: flex;
+justify-content: flex-end;
+}
+
+.menuSuspenso-links{
+margin: 20px;
+display: flex;
+width: 150px;
+justify-content: space-between;
+}
+
+@media (max-width: 460px)
+{
+    .menuSuspenso {
+        justify-content: center;
+        justify-content: space-between;
+        background-color: rgba(37, 37, 37, 0.342);
+        }
+        
+        .menuSuspenso-links{
+        margin: 20px auto;
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        }
+
+}

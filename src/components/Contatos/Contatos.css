@@ -1,0 +1,95 @@
+.contatos {
+    background-color: #131313;
+    margin-top: 50px;
+}
+
+.contatos-section {
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px auto;
+}
+
+.titulo-contatos, .titulo-fale-comigo, .titulo-redes-sociais {
+    color: #6A6A6A;
+    font-size: 30px;
+}
+
+.contatos-item {
+    color: #fFf;
+    margin: 0px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 10px;
+}
+
+.contatos-direito {
+    padding: 50px;
+}
+
+.contatos-esquerdo {
+    padding: 50px;
+}
+
+.redes-sociais {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.card-email {
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 18rem;
+    margin: 10px;
+}
+
+.card-email a {
+    width: 60%;
+    margin: auto;
+    text-decoration: none;
+}
+
+.botao-gmail {
+    background-color: #0054ad;
+    color: #fff;
+    border-radius: 10px;
+    height: 38px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 1000px) {
+    .contatos {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0px 0px;
+        padding-bottom: 70px;
+    }
+
+    .contatos-direito {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .contatos-esquerdo {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .card-email {
+        margin: 0px auto;
+    }
+
+    .contatos-section {
+        width: 100%;
+        flex-direction: column;
+    }
+
+}

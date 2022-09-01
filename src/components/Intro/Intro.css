@@ -1,0 +1,74 @@
+.foto-perfil{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    float: right;
+    margin-right: 15%;
+    object-fit: cover;
+}
+
+.intro{
+    color: white;
+    display: grid; 
+    grid-auto-columns: 1fr 1fr; 
+    grid-template-columns: 0.6fr 1.4fr; 
+    gap: 44px 11px; 
+    margin-top: 50px; 
+}
+
+.gridEsquerdo  .nome{
+    font-size: 45px;
+    margin: 0px;
+}
+
+.gridEsquerdo .cargo{
+    font-size: 30px;
+    margin: 0px;
+    color: #767676;
+}
+
+.gridEsquerdo .texto-intro{
+    font-size: 20px;
+    margin: 5px 0px 0px 0px;
+    width: 70%;
+}
+
+@media (max-width: 1000px)
+{
+    .intro{
+        grid-template-columns: 1fr; 
+        gap: 0px 0px; 
+        margin-top: 50px; 
+    }
+
+    .gridEsquerdo{
+        margin: 0px 10%;
+    }
+
+    .gridEsquerdo .nome{
+        font-size: 35px;
+        margin: 0px;
+    }
+
+    .gridEsquerdo .cargo{
+        font-size: 25px;
+        margin: 0px;
+    }
+
+    .gridEsquerdo .texto-intro{
+        font-size: 15px;
+        margin: 5px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .foto-perfil{
+        width: 300px;
+        height: 300px;;
+        border-radius: 100%; 
+        object-fit: cover;
+        float: none;
+        margin: 0px auto 50px auto;
+        display: block;
+    }
+
+}

@@ -1,0 +1,97 @@
+.diferenciais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-diferenciais {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+
+.card-diferenciais  {
+  margin-top: 20px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  max-width: 32rem;
+  border-radius: 20px;
+  padding: 1.25rem 2rem;
+  height: fit-content;
+  position: relative;
+}
+
+.card-diferenciais  h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: rgb(38, 38, 38);
+  margin-right: 2rem;
+}
+
+.card-diferenciais  p {
+  max-width: 17rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: black;
+}
+
+.card-diferenciais  p span {
+  color: rgb(38, 38, 38);
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.numeracao-diferenciais{
+ display: flex;
+ flex-direction: column;
+}
+
+.conteudo-diferenciais{
+  display: flex;
+  flex-direction: column;
+  max-width: 17rem;
+}
+
+.primeiro {
+  background-color: #51F2F1;
+  margin-right: 350px;
+}
+
+.segundo {
+  background-color: #FD63F3;
+
+}
+
+.terceiro {
+  background-color: #8CF7AB;
+  margin-left: 350px;
+}
+
+
+@media (max-width: 1000px){
+
+  .card-diferenciais  {
+    max-width: 90%;
+  }
+
+
+  .primeiro {
+    margin-right: 0px;
+  }
+
+  .terceiro {
+    margin-left: 0px;
+  }
+
+
+}
