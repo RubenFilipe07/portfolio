@@ -47,6 +47,7 @@ function Experiencia() {
               <ul className='tecnologias-experiencia'>
                 <li>React.js</li>
                 <li>Strapi CMS</li>
+                <li>MySql</li>
                 <li>Figma</li>
                 <li>Git/Github</li>
               </ul>
@@ -70,10 +71,10 @@ function Experiencia() {
     </div>
 
     <div className='tecnologias'>
-      <img src={javascript} alt="javascript" />
-      <img src={reactjs} alt="react.js" />
-      <img src={spring} alt="spring" />
-      <img src={figma} alt="figma" />
+      <img src={javascript} alt="javascript" width={100} height={100}/>
+      <img src={reactjs} alt="react.js" width={100} height={100}/>
+      <img src={spring} alt="spring" width={100} height={100}/>
+      <img src={figma} alt="figma" width={100} height={100}/>
     </div>
     </Fragment>
   );
