@@ -21,5 +21,6 @@
     <li><a href="https://firebase.google.com/">Firebase</a></li>
 </ul>
 
-
-
+<h2>Pontuação no lighthouse</h2>
+<img width="600" src="https://user-images.githubusercontent.com/53026536/189603951-cf7bf9b6-288e-4e45-9584-d19553c75984.png"></img>
+<p>O site foi testado utilizando a ferramenta <a href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a> do google, e obteve alta pontuação em todas categorias.</p>
