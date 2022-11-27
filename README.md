@@ -1,8 +1,8 @@
 <h3>Acesso</h3>
-<a href="https://rubenfilipe07.me/">
+<a href="https://rubenfilipe.me/">
   <img src="https://user-images.githubusercontent.com/53026536/187844303-71df092c-d674-431d-98eb-7f233092c9da.png"></img>
 </a>
-<p>O site está hospedado no link: <a href="https://rubenfilipe07.me/">https://rubenfilipe07.me/</a></p>
+<p>O site está hospedado no link: <a href="https://rubenfilipe.me/">https://rubenfilipe.me/</a></p>
 
 <h3>Como instalar o projeto</h3>
 <ol>

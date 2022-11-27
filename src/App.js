@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer';
 import Diferenciais from './components/Diferenciais/Diferenciais';
 import MenuSuspenso from './components/MenuSuspenso/MenuSuspenso';
 import Habilidades from './components/Habilidades/Habilidades';
-import Contatos from './components/Contatos/Contantos';
+import Contatos from './components/Contatos/Contatos';
 import './app.css';
 
 

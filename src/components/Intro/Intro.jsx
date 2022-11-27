@@ -7,7 +7,7 @@ function intro() {
   return (
     <div className="intro">
       <div className='gridDireito'>
-        <img rel="prefetch"  className="foto-perfil" src={perfil} alt='perfil' width={250} height={250}></img>
+        <img rel="preload"  className="foto-perfil" src={perfil} alt='perfil' as="image" width={250} height={250}></img>
       </div>
       <div className='gridEsquerdo'>
         <h1 className="nome">Olá, sou Rúben Filipe</h1>

@@ -1,6 +1,6 @@
 import {React, Fragment} from 'react'
 import { Timeline } from 'rsuite';
-import 'rsuite/dist/rsuite.min.css';
+import 'rsuite/styles/index.less';
 import './Experiencia.css'
 
 import curriculo from '../../assets/curriculo.webp';
@@ -8,6 +8,7 @@ import reactjs from '../../assets/tecnologias/react.webp';
 import javascript from '../../assets/tecnologias/javascript.webp';
 import spring from '../../assets/tecnologias/spring.webp';
 import figma from '../../assets/tecnologias/figma.webp';
+
 
 function Experiencia() {
   return (
@@ -61,7 +62,7 @@ function Experiencia() {
         <h1 className='titulo-experiencia'>Currículo</h1>
           <hr className='barra'/>
           <span className='experiencia-conteudo curriculo'>
-            <a href='https://rubenfilipe07.me/arquivos/Curr%C3%ADculo%20-%20R%C3%BAben%20Filipe.pdf'>
+            <a href='https://rubenfilipe.me/arquivos/Curr%C3%ADculo%20-%20R%C3%BAben%20Filipe.pdf'>
             <img src={curriculo} alt="curriculo" className='curriculo' width={250} height={171}/>
             <button className='donwload-curriculo'>Donwload</button>
             </a>

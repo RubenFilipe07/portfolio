@@ -25,7 +25,7 @@ function Contatos() {
         <div className='contatos-direito'>
           <h1 className='titulo-fale-comigo'>Fale Comigo</h1>
           <div className='card-email'>
-            <img src={Gmail} alt='gmail'></img>
+            <img src={Gmail} alt='gmail' width={100} height={100}></img>
             <a href='mailto:rubenfilipe.net@gmail.com'>
               <div className='botao-gmail'>Enviar Email</div>
             </a>
