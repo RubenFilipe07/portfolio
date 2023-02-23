@@ -1,0 +1,120 @@
+.bloco-titulo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+}
+
+.projetos {
+    background-color: #050505;
+    padding: 50px 0px;
+}
+
+
+.grid-projetos {
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    gap: 44px 11px;
+    grid-template-areas:
+        "esquerdo direito";
+}
+
+.esquerdo {
+    grid-area: esquerdo;
+    padding: 40px;
+    position: relative;
+    left: 9%;
+    z-index: 1;
+    background: linear-gradient(89.74deg, #050505 91.94%, rgba(0, 0, 0, 0) 98.14%);
+}
+
+.direito {
+    grid-area: direito;
+    max-width: 98.6%;
+}
+
+.projetos-footer {
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+}
+
+.projetos-footer:hover {
+    color: #cecece;
+    text-decoration: none;
+}
+
+.titulo-projetos {
+    color: #919191;
+    font-size: 30px;
+}
+
+.descricao-projetos {
+    font-size: 23px;
+    line-height: 37px;
+    max-width: 70%;
+    color: #FFFFFF;
+}
+
+.descricao-projetos a, .descricao-projetos a:hover, .descricao-projetos a:visited {
+    color: #8ff7a7;
+    text-decoration: none;
+}
+
+ .slick-dots li button:before {
+    font-size: 10px;
+    line-height: 10px;
+    color: #ffffff !important;
+  } 
+
+@media screen and (max-width: 721px) {
+    .grid-projetos {
+        display: grid; 
+        grid-auto-columns: 1fr 1fr; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 4px 11px; 
+        grid-template-areas: 
+          "esquerdo"
+          "direito"; 
+        display: block;
+        max-width: 100%;
+      }
+
+      .projetos{
+        padding: 0px;
+      }
+      .esquerdo { grid-area: esquerdo; 
+        position: relative;
+        left: 0%;
+        padding: 0px;
+    }
+
+    .descricao-projetos{
+        max-width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+
+      .direito { 
+        grid-area: direito; 
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+      .titulo-projetos {
+        max-width: 100%;
+        display: block;
+        font-size: 25px;
+        text-align: center;
+      }
+
+}

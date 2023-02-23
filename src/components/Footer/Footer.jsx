@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
   return (
     <div className="footer">
-       <span>&copy; 2022 Rúben Filipe</span> 
+       <span>&copy; 2023 - Rúben Filipe</span> 
     </div>
   );
 }

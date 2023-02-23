@@ -11,7 +11,7 @@
 }
 
 .titulo-contatos, .titulo-fale-comigo, .titulo-redes-sociais {
-    color: #6A6A6A;
+    color: #919191;
     font-size: 30px;
 }
 
@@ -54,16 +54,27 @@
     text-decoration: none;
 }
 
+.card-email-api textarea:focus-visible, .card-email-api input:focus-visible {
+    outline: 1.5px solid#7a7a7a;
+}
+
+.formulario-email-dinamico{
+    background-color: #ffff;
+    border-radius: 5px;
+    padding: 25px;
+    min-width: 370px
+}
+
 .botao-gmail {
-    background-color: #0054ad;
+    background-color: #015fc4;
     color: #fff;
     border-radius: 10px;
     height: 38px;
     padding: 10px;
+    width: 70%;
     text-align: center;
-    margin-bottom: 15px;
+    margin: 0px auto 15px auto;
 }
-
 
 @media (max-width: 1000px) {
     .contatos {
@@ -87,9 +98,22 @@
         margin: 0px auto;
     }
 
+    .card-email-api {
+        margin: 0px auto;
+        width: 18rem;
+    }
+
+    .titulo-fale-comigo {
+        text-align: center;
+    }
+    
     .contatos-section {
         width: 100%;
         flex-direction: column;
     }
 
+    .formulario-email-dinamico {
+        width: 90%;
+        margin: 0px auto;
+    }
 }

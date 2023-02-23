@@ -7,14 +7,14 @@ import curriculo from '../../assets/curriculo.webp';
 import reactjs from '../../assets/tecnologias/react.webp';
 import javascript from '../../assets/tecnologias/javascript.webp';
 import spring from '../../assets/tecnologias/spring.webp';
-import figma from '../../assets/tecnologias/figma.webp';
+import node from '../../assets/tecnologias/node.webp';
 
 
 function Experiencia() {
   return (
     <Fragment>
     <div className="experiencia">
-        <div className='esquerdo'>
+        <div className='experiencia-esquerdo'>
         <h1  className='titulo-experiencia'>Formação</h1>
           <hr className='barra'/>
         <span className='experiencia-conteudo'>
@@ -47,10 +47,10 @@ function Experiencia() {
               <p className='data'>Out. de 2021 - Presente</p>
               <ul className='tecnologias-experiencia'>
                 <li>React.js</li>
+                <li>Node.js</li>
                 <li>Strapi CMS</li>
                 <li>MySql</li>
                 <li>Figma</li>
-                <li>Git/Github</li>
               </ul>
           </Timeline.Item>
           </Timeline>
@@ -58,7 +58,7 @@ function Experiencia() {
         </div>
 
 
-        <div className='direito'>
+        <div className='experiencia-direito'>
         <h1 className='titulo-experiencia'>Currículo</h1>
           <hr className='barra'/>
           <span className='experiencia-conteudo curriculo'>
@@ -75,7 +75,7 @@ function Experiencia() {
       <img src={javascript} alt="javascript" width={100} height={100}/>
       <img src={reactjs} alt="react.js" width={100} height={100}/>
       <img src={spring} alt="spring" width={100} height={100}/>
-      <img src={figma} alt="figma" width={100} height={100}/>
+      <img src={node} alt="node.js" width={100} height={100}/>
     </div>
     </Fragment>
   );

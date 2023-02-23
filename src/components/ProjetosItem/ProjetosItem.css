@@ -1,0 +1,88 @@
+.card-projetos {
+  width: 300px;
+  height: 370px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  overflow: hidden;
+  user-select: none;
+}
+
+.projeto-link{
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.projeto-link:hover, .projeto-link:focus, .projeto-link:active {
+  text-decoration-color: #a5a5a5;
+}
+
+.projeto-imagem {
+  width: 270px;
+  height: 165px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.projeto-titulo {
+  font-size: 24px;
+  color: #333;
+}
+
+.projeto-descricao {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.projeto-tecnologia {
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 10px;
+  background-color: #e7e7e7;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+  text-transform: uppercase;
+}
+
+.projeto-tecnologia[data-content="node"] {
+  background-color: #3c873a;
+  color: #fff;
+}
+
+.projeto-tecnologia[data-content="react"] {
+  background-color: #61dafb;
+  color: #fff;
+}
+
+.projeto-tecnologia[data-content="javascript"] {
+  background-color: #c2ad0f;
+  color: #fff;
+}
+
+.projeto-tecnologia[data-content="spring"] {
+  background-color: #6db33f;
+  color: #fff;
+}
+
+.projeto-tecnologia[data-content="java"] {
+  background-color: #e62b38;
+  color: #fff;
+}
+
+.projeto-tecnologia[data-content="postgresql"] {
+  background-color: #32648b;
+  color: #fff;
+}
+
+.projeto-tecnologia[data-content="react native"] {
+  background-color: #00a9d6;
+  color: #fff;
+}
