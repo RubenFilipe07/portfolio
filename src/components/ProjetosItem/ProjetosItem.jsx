@@ -3,8 +3,8 @@ import './ProjetosItem.css'
 const ProjetosItem = (props) => {
   return (
     <div className="card-projetos" key={props.key}>
-      <img className="projeto-imagem" src={props.imagem_principal_url} alt={props.titulo} />
-      <a href={props.url} target="_blank" rel="noreferrer" className="projeto-link">
+      <img className="projeto-imagem" src={props.imagem_principal_url} alt={props.titulo} width={270} height={165}/>
+      <a href={props.url} target="_blank" rel="noreferrer" className="projeto-link" aria-hidden="false">
         <h1 className="projeto-titulo">{props.titulo}</h1>
       </a>
       <p className="projeto-descricao">{props.descricao}</p>

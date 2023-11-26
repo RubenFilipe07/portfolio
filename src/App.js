@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Intro from './components/Intro/Intro';
 import Experiencia from './components/Experiencia/Experiencia';
 import Footer from './components/Footer/Footer';
@@ -10,28 +10,19 @@ import Projetos from './components/Projetos/Projetos';
 import './app.css';
 
 
-import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
-
 
 function App() {
   return (
-    <GoogleReCaptchaProvider reCaptchaKey='6LcizIokAAAAAAYvt79OAwuONfhE3b-HE-S9vb5e'
-    container={{ 
-      element: "rc-anchor",
-      parameters: {
-        badge: 'bottomright',
-        theme: 'dark', 
-      }
-    }}>
+    <Fragment>
         <MenuSuspenso />
         <Intro />
         <Experiencia />
         <Habilidades />
-        <Projetos />
+        {/* <Projetos /> */}
         <Diferenciais />
         <Contatos />
         <Footer />
-    </GoogleReCaptchaProvider>
+    </Fragment>
   );
 }
 

@@ -12,8 +12,7 @@ function intro() {
       <div className='gridEsquerdo'>
         <h1 className="nome">Olá, sou Rúben Filipe</h1>
         <h1 className="cargo">Desenvolvedor Fullstack</h1>
-        <p className="texto-intro">Tenho experiência em programação desde 2017, quando entrei no curso técnico em informática pelo IFRN, logo após me formar, entrei na graduação em TI pela UFRN e consegui minha primeira experiência em uma vaga de programação: desenvolvedor Full Stack na PROAD, a pró reitoria de administração da UFRN, na qual estou contribuindo com o desenvolvimento de seu novo site.
-        </p>
+        <p className="texto-intro">Técnico em informática formado pelo IFRN e bacharelando em Tecnologia da Informação no IMD/UFRN (6º período). Tenho mais de 2 anos de experiência como desenvolvedor full stack na Pró-Reitoria de Administração da UFRN. Atualmente, desenvolvedor full stack na Quark Tecnologia.</p>
       </div>
     </div>
   );

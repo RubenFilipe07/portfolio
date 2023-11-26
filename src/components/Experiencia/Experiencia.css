@@ -38,6 +38,10 @@
     height: 250px;
 }
 
+.rs-timeline-item:last-child .rs-timeline-item-tail{
+    min-height: 100% !important;
+}
+
 .exp-acad .rs-timeline-item-tail {
     height: 250px;
 }

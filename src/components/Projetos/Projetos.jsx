@@ -40,6 +40,7 @@ function Projetos() {
                 slidesToShow={1} 
                 slidesToScroll={3} 
                 variableWidth={true}
+                ariaLabel="Projetos"
                 arrows={false}
                 autoplay={false}
                 responsive={[

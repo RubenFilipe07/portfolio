@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Contatos.css'
 import Telegram from '../../assets/contatos/telegram.webp'
 import Whatsapp from '../../assets/contatos/whatsapp.webp'
@@ -8,10 +8,6 @@ import Gmail from '../../assets/contatos/gmail.webp'
 import axios from 'axios'
 import { useToaster, Message, Form, Button, Schema } from 'rsuite';
 import { isEmpty } from 'lodash'
-import {
-  GoogleReCaptcha,
-  useGoogleReCaptcha
-} from 'react-google-recaptcha-v3'
 
 import CampoMensagem from '../Formulario/CampoMensagem'
 import CampoTexto from '../Formulario/CampoTexto'
@@ -27,7 +23,7 @@ function Contatos() {
     mensagem: '',
   });
 
-  const [apiIsReady, setApiIsReady] = useState(false);
+  // const [apiIsReady, setApiIsReady] = useState(false);
   const toaster = useToaster();
 
 
@@ -37,8 +33,8 @@ function Contatos() {
         'api-key': process.env.REACT_APP_API_KEY
       }
     })
-      .then(response => setApiIsReady(true))
-      .catch(error => setApiIsReady(false));
+      .then(response => setShowEmailAPI(true))
+      .catch(error => setShowEmailAPI(false));
   }
 
   const model = Schema.Model({
@@ -73,16 +69,9 @@ function Contatos() {
     }
   }
 
-  const { executeRecaptcha } = useGoogleReCaptcha();
-
-  const handleVerify = async () => {
+  useEffect(() => {
     verifyCallback();
-    if (executeRecaptcha && apiIsReady) {
-      setShowEmailAPI(true);
-    } else {
-      setShowEmailAPI(false);
-    }
-  }
+  }, []);
 
   const emailError = (
     <Message showIcon type='error' closable>
@@ -141,7 +130,6 @@ function Contatos() {
 
         </div>
 
-        <GoogleReCaptcha onVerify={handleVerify} />
       </div>
     </div>
 

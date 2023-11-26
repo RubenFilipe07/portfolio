@@ -12,13 +12,13 @@
         "destination": "/index.html"
       }
     ],
-    "headers": [
+  "headers": [
       {
-        "source": "**",
+        "source": "**/*.@(ico|jpg|jpeg|png|gif|webp|svg|js|css)",
         "headers": [
           {
             "key": "Cache-Control",
-            "value": "max-age=604800"
+            "value": "max-age=1209600"
           }
         ]
       }

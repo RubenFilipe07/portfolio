@@ -5,7 +5,7 @@ import './Experiencia.css'
 
 import curriculo from '../../assets/curriculo.webp';
 import reactjs from '../../assets/tecnologias/react.webp';
-import javascript from '../../assets/tecnologias/javascript.webp';
+import angular from '../../assets/tecnologias/angular.webp';
 import spring from '../../assets/tecnologias/spring.webp';
 import node from '../../assets/tecnologias/node.webp';
 
@@ -53,6 +53,17 @@ function Experiencia() {
                 <li>Figma</li>
               </ul>
           </Timeline.Item>
+          <Timeline.Item>
+              <p className='instituicao'>Quark Tecnologia</p>
+              <p className='cargo'>Desenvolvedor Fullstack⠀⠀⠀</p>
+              <p className='data'>Nov. de 2023 - Presente</p>
+              <ul className='tecnologias-experiencia'>
+                <li>Spring</li>
+                <li>Angular.ts</li>
+                <li>JSF</li>
+                <li>PostgreSql</li>
+              </ul>
+          </Timeline.Item>
           </Timeline>
         </span>
         </div>
@@ -62,7 +73,7 @@ function Experiencia() {
         <h1 className='titulo-experiencia'>Currículo</h1>
           <hr className='barra'/>
           <span className='experiencia-conteudo curriculo'>
-            <a href='https://rubenfilipe.me/arquivos/Curr%C3%ADculo%20-%20R%C3%BAben%20Filipe.pdf'>
+            <a href='https://ruben07.me/arquivos/Curr%C3%ADculo%20-%20R%C3%BAben%20Filipe.pdf'>
             <img src={curriculo} alt="curriculo" className='curriculo' width={250} height={171}/>
             <button className='donwload-curriculo'>Donwload</button>
             </a>
@@ -72,7 +83,7 @@ function Experiencia() {
     </div>
 
     <div className='tecnologias'>
-      <img src={javascript} alt="javascript" width={100} height={100}/>
+      <img src={angular} alt="angular" width={100} height={100}/>
       <img src={reactjs} alt="react.js" width={100} height={100}/>
       <img src={spring} alt="spring" width={100} height={100}/>
       <img src={node} alt="node.js" width={100} height={100}/>
